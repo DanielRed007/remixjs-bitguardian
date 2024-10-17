@@ -1,0 +1,106 @@
+{
+    "personal": {
+      "free": [
+        {
+          "planType": "free",
+          "monthlyPrice": 0,
+          "monthlyPriceSubtitle": "Free Forever",
+          "listTitle": "Get a BitGuardian vault",
+          "benefits": [
+            "Unlimited Devices",
+            "Passkey Management",
+            "All the Core Functions",
+            "Always Free"
+          ],
+          "promoText": "Share vault items with another single user",
+          "buttonText": "Get Started Today"
+        }
+      ],
+      "premium": [
+        {
+          "planType": "premium",
+          "monthlyPrice": 5,
+          "monthlyPriceSubtitle": "$5 per month",
+          "listTitle": "Enhanced security and convenience",
+          "benefits": [
+            "All Free Plan Benefits",
+            "Priority Support",
+            "Advanced Encryption",
+            "Unlimited Sharing",
+            "Cross-Platform Sync"
+          ],
+          "promoText": "Share vault items with unlimited users",
+          "buttonText": "Upgrade to Premium"
+        }
+      ],
+      "families": [
+        {
+          "planType": "families",
+          "monthlyPrice": 10,
+          "monthlyPriceSubtitle": "$10 per month",
+          "listTitle": "Secure your whole family",
+          "benefits": [
+            "All Premium Plan Benefits",
+            "Up to 5 Family Members",
+            "Family Sharing",
+            "Individual Vaults for Each Member",
+            "Family Management Dashboard"
+          ],
+          "promoText": "Protect and manage your entire family's vaults",
+          "buttonText": "Get Families Plan"
+        }
+      ]
+    },
+    "business": {
+      "free": [
+        {
+          "planType": "free",
+          "monthlyPrice": 0,
+          "monthlyPriceSubtitle": "Free Forever",
+          "listTitle": "Basic business vault",
+          "benefits": [
+            "Unlimited Devices",
+            "Passkey Management",
+            "Basic Vault Features",
+            "Always Free"
+          ],
+          "promoText": "Limited collaboration for one team member",
+          "buttonText": "Get Started"
+        }
+      ],
+      "premium": [
+        {
+          "planType": "premium",
+          "monthlyPrice": 15,
+          "monthlyPriceSubtitle": "$15 per month",
+          "listTitle": "Business-level security",
+          "benefits": [
+            "All Free Plan Benefits",
+            "Advanced Vault Functions",
+            "Priority Business Support",
+            "Multi-User Collaboration",
+            "Cross-Platform Sync"
+          ],
+          "promoText": "Unlimited sharing and collaboration for teams",
+          "buttonText": "Upgrade to Premium"
+        }
+      ],
+      "enterprise": [
+        {
+          "planType": "enterprise",
+          "monthlyPrice": 30,
+          "monthlyPriceSubtitle": "$30 per month",
+          "listTitle": "Enterprise-grade security",
+          "benefits": [
+            "All Premium Plan Benefits",
+            "Dedicated Account Manager",
+            "Enhanced Team Management",
+            "Unlimited Team Members",
+            "Custom Integrations"
+          ],
+          "promoText": "Custom solutions for large organizations",
+          "buttonText": "Contact Sales"
+        }
+      ]
+    }
+  }
