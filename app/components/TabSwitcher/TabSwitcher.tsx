@@ -100,10 +100,16 @@ export default function TabSwitcher() {
   return (
     <TabGroup className='w-full h-full'>
       <TabList className='flex justify-center gap-x-4'>
-        <Tab className='rounded-full py-3 px-6 text-lg font-semibold text-white focus:outline-none data-[selected]:bg-white/10 data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white'>
+        <Tab
+          data-testid='personal-tab-button'
+          className='rounded-full py-3 px-6 text-lg font-semibold text-white focus:outline-none data-[selected]:bg-white/10 data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white'
+        >
           Personal
         </Tab>
-        <Tab className='rounded-full py-3 px-6 text-lg font-semibold text-white focus:outline-none data-[selected]:bg-white/10 data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white'>
+        <Tab
+          data-testid='business-tab-button'
+          className='rounded-full py-3 px-6 text-lg font-semibold text-white focus:outline-none data-[selected]:bg-white/10 data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white'
+        >
           Business
         </Tab>
       </TabList>
